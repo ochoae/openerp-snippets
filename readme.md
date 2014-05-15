@@ -1,5 +1,5 @@
 ================
-OpenErp Snippets
+OpenERP Snippets
 ================
 
 This is a sublime <http://www.sublimetext.com/> package which includes a bunch of handy snippets for doing OpenERp development.
