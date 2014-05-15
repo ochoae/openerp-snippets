@@ -1,0 +1,12 @@
+
+<snippet>
+    <content><![CDATA[
+def create(self, cr, uid, vals, context=None):
+    context = context or {}
+	res_id = super(${1:ModelName}, self).create(cr, uid, vals, context=context)
+	return res_id $0
+]]></content>
+    <tabTrigger>def create</tabTrigger>
+    <scope>source.python</scope>
+    <description>def create</description>
+</snippet>

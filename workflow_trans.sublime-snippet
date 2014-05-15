@@ -1,0 +1,14 @@
+
+<snippet>
+    <content><![CDATA[
+<record id="${1:name}" model="workflow.transition">
+    <field name="act_from" ref="act_${2:from}"/>
+    <field name="act_to" ref="act_${3:to}"/>
+    <field name="signal">${4:signal_name}</field>
+    <!-- <field name="group_id" ref="groupname"/> -->
+</record>
+]]></content>
+    <tabTrigger>workflow_trans</tabTrigger>
+    <scope>text.xml</scope>
+    <description>workflow_trans</description>
+</snippet>

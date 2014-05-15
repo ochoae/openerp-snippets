@@ -1,0 +1,15 @@
+
+<snippet>
+    <content><![CDATA[
+<record id="act_${1:name}" model="workflow.activity">
+    <field name="wkf_id" ref="wkf_${2:workflowname}"/>
+    <field name="name">${1:name}</field>
+    <!--<field name="flow_start">True</field>-->
+    <!--<field name="flow_stop">True</field>-->
+    <field name="kind">function</field>
+    <field name="action">do_signal_${4:name}()</field>
+</record>
+]]></content>
+    <tabTrigger>workflow_act</tabTrigger>
+    <description>New Workflow Activity</description>
+</snippet>

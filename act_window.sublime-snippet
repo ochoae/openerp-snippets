@@ -1,0 +1,15 @@
+
+<snippet>
+    <content><![CDATA[
+<record model="ir.actions.act_window" id="${1:object_name}_tree_view">
+    <field name="name">${2:name}</field>
+    <field name="res_model">${3:objectname}</field>
+    <field name="view_type">form</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+]]></content>
+    <tabTrigger>act_window</tabTrigger>
+    <scope>text.xml</scope>
+    <description>act_window</description>
+</snippet>

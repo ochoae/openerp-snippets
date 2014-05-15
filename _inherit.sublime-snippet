@@ -1,0 +1,9 @@
+
+<snippet>
+    <content><![CDATA[
+_inherit = '${1:openerpmodel}'
+]]></content>
+    <tabTrigger>_inherit</tabTrigger>
+    <scope>source.python</scope>
+    <description>_inherit</description>
+</snippet>

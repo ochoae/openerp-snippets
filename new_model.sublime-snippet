@@ -1,0 +1,21 @@
+
+<snippet>
+    <content><![CDATA[
+from openerp.osv import osv, fields
+from openerp.tools.translate import _
+
+class ${1:ClassName}(osv.Model):
+ '''
+ Open ERP Model
+ '''
+	_name = '${2:openerpmodel}'
+	_description = '${2:openerpmodel}'
+ 
+	_columns = {
+		'${3:name}':fields.char('${4:data}', size={64}, required={False}, readonly={False}), $0
+    }
+]]></content>
+    <tabTrigger>new_model</tabTrigger>
+    <scope>source.python</scope>
+    <description>new_model</description>
+</snippet>
